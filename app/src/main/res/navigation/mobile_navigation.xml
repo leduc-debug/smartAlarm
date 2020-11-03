@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/alarmFragment">
+
+
+    <fragment
+        android:id="@+id/alarmFragment"
+        android:name="com.lduwcs.smartalarm.ui.AlarmFragment"
+        android:label="fragment_alarm"
+        tools:layout="@layout/fragment_alarm" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.lduwcs.smartalarm.ui.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.lduwcs.smartalarm.ui.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/stopwatch"
+        android:name="com.lduwcs.smartalarm.ui.Stopwatch"
+        android:label="fragment_stopwatch"
+        tools:layout="@layout/fragment_stopwatch" />
+    <fragment
+        android:id="@+id/storeFragment"
+        android:name="com.lduwcs.smartalarm.ui.StoreFragment"
+        android:label="fragment_store"
+        tools:layout="@layout/fragment_store" />
+</navigation>
